@@ -18,7 +18,8 @@ print('Lets Play...\n')
 while userScore <= 4 or cpuScore <= 4:
     # print('Lets Play...\n')
 
-    userMove = int(input('(1) Rock, (2) Paper, (3) Scissors\nEnter your choice: \n'))
+    userMove = int(input('(1) Rock, (2) Paper, (3) Scissors\nEnter your choice: '))
+
     #print(userInput)
     cpuMove = random.randint(1,3)
 
