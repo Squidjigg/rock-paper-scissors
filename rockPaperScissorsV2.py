@@ -1,8 +1,8 @@
 import random
 
-rock = 1
-paper = 2
-scissors = 3
+#rock = 1
+#paper = 2
+#scissors = 3
 options = {1:'Rock',2:'Paper',3:'Scissors'}
 
 #print(options[1])
@@ -15,7 +15,7 @@ cpuScore = 0
 
 print('Lets Play...\n')
 
-while userScore <= 4 or cpuScore <= 4:
+while not (userScore == 5 or cpuScore == 5):
     # print('Lets Play...\n')
 
     userMove = int(input('(1) Rock, (2) Paper, (3) Scissors\nEnter your choice: '))
