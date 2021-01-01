@@ -13,6 +13,8 @@ cpuInput = 0
 userScore = 0
 cpuScore = 0
 
+gameNumber = 0
+
 print('Lets Play...\n')
 
 while not (userScore == 5 or cpuScore == 5):
@@ -23,6 +25,9 @@ while not (userScore == 5 or cpuScore == 5):
     #print(userInput)
     cpuMove = random.randint(1,3)
 
+    gameNumber += 1
+
+    print(f'\n--- GAME {gameNumber} ---')
     print(f'You: {options[userMove]}')
     print(f'CPU: {options[cpuMove]}')
 
