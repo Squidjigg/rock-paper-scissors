@@ -1,2 +1,2 @@
 # Rock - Paper - Scissors
-My code learnings on a classic game
+Learning to code Python by creating a classic game
