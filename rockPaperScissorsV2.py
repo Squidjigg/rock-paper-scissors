@@ -67,3 +67,8 @@ while not (playerScore == 5 or cpuScore == 5):
 
     print(f'Your score = {playerScore}')
     print(f'CPU score = {cpuScore}\n')
+
+if playerScore == 5:
+    print(f'You WON after {gameNumber} games - Congratulations!\n--- GAME OVER ---')
+else:
+    print(f'You LOST after {gameNumber} games - Better luck next time!\n--- GAME OVER ---')
