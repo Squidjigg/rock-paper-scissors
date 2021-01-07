@@ -1,6 +1,6 @@
 import random
 import emoji
-# must install emoji package - 'pip install emoji'
+# must install emoji package - 'pip3 install emoji'
 
 #options = {1:'Rock',2:'Paper',3:'Scissors'}
 
